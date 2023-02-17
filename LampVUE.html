@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width-device-width, initial-scale=1.0">
+      <title>Professional Career</title>
+      <link rel="stylesheet" href="LampVUE.css">
+
+
+      
+      </head>
+    
+    <body>
+        <div class="Hero">
+            <nav>
+                <img src="real/menu.jpg" class="menu-img">
+                <img src="real/logo.jpg" class="logo-img">
+                    <img src="real/avi.jpg" class="avi-img">
+            
+                <ul>
+                <li><a href="">Latest</a></li>
+                <li><a href="">Modern</a></li>
+                <li><a href="">Contemporary</a></li>
+                <li><a href="">Affordable</a></li>
+                    <li><a id="dialog" href="#login">LOG IN</a></li>
+                
+                </ul>
+                <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+
+            </nav>
+            
+            <div class="lamp-container">
+                <img src="real/armbnd.jpg" class="armbnd">
+                <img src="real/armmul.jpg" class="armmul" id="armmul">
+            
+            </div>
+            
+            <div class="text-container">
+            <h1>Latest On My Journey</h1>
+                <p>It's my first update in a while<br>Hope you still Puppy Cute<br> It's pure chaos out here</p>
+                <a href="">Check All Adventous</a>
+                
+     
+            <div class="control">
+            <p>04</p>
+            <div class="line"><span></span></div>
+            <p>05</p>
+            </div>
+                  
+                
+                    </div>
+            
+
+        
+        </div>
+        
+    
+        <script>
+        var btn = document.getElementById("btn");
+            var armmul = document.getElementById("armmul");
+            
+            function toggleBtn(){
+                btn.classList.toggle("active")
+                armmul.classList.toggle("on");
+                
+            }
+        </script>
+    </body>
+</html>
