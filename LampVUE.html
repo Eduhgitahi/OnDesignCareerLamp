@@ -12,9 +12,9 @@
     <body>
         <div class="Hero">
             <nav>
-                <img src="real/menu.jpg" class="menu-img">
-                <img src="real/logo.jpg" class="logo-img">
-                    <img src="real/avi.jpg" class="avi-img">
+                <img src="real/menu.png" class="menu-img">
+                <img src="real/logo.png" class="logo">
+                    <!--<img src="real/logo.png" class="avi-img">-->
             
                 <ul>
                 <li><a href="">Latest</a></li>
@@ -24,19 +24,19 @@
                     <li><a id="dialog" href="#login">LOG IN</a></li>
                 
                 </ul>
-                <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+                <button type="button" onclick="togglebtn()" id="btn"><span></span></button>
 
             </nav>
             
             <div class="lamp-container">
-                <img src="real/armbnd.jpg" class="armbnd">
-                <img src="real/armmul.jpg" class="armmul" id="armmul">
+                <img src="real/lamp.png" class="lamp-img">
+                <img src="real/light.png" class="light" id="light">
             
             </div>
             
             <div class="text-container">
             <h1>Latest On My Journey</h1>
-                <p>It's my first update in a while<br>Hope you still Puppy Cute<br> It's pure chaos out here</p>
+                <p>It's my first update in a while. Hope you still Puppy Cute. It's pure chaos out here</p>
                 <a href="">Check All Adventous</a>
                 
      
@@ -56,11 +56,11 @@
     
         <script>
         var btn = document.getElementById("btn");
-            var armmul = document.getElementById("armmul");
+            var light = document.getElementById("light");
             
-            function toggleBtn(){
+            function togglebtn(){
                 btn.classList.toggle("active")
-                armmul.classList.toggle("on");
+                light.classList.toggle("on");
                 
             }
         </script>

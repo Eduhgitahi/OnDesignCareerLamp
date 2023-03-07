@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
+    background: #1d2026;
 }
 
 .hero{
@@ -21,22 +22,22 @@ nav{
 }
 
 nav .menu-img{
-    width: 100px;
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 160px;
     margin-right: 100px;
     cursor: pointer;
 }
 
-nav .logo-img{
-    width: 100px;
-    margin-right: 100px;
-    cursor: pointer;
-}
-
-nav .avi-img{
+/*nav .avi-img{
     width: 100px;
     margin-right: 10px;
     cursor: pointer;
-}
+}*/
 
 nav ul{
     flex: 1;
@@ -50,7 +51,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: blue;
+    color: #fff;
 }
 
 
@@ -67,27 +68,27 @@ button{
 
 button span{
     display: block;
-    background: blue;
+    background: #999;
     height: 26px;
     width: 26px;
     border-radius: 50%;
     margin-left: 2px;
-    transition: background 0.5s, margin-left0.5s;
+    transition: background 0.5s, margin-left 0.5s;
 }
 
 .lamp-container{
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 22%;
     width: 200px;
 }
 
-.armbnd{
+.lamp{
     width: 100%;
     margin-top: 50%;
 }
 
-.armmul{
+.light{
     position:absolute;
     top: 100%;
     left: 50%;
@@ -99,9 +100,9 @@ button span{
 }
 
 .text-container{
-    max-width: 300px;
+    max-width: 600px;
     margin-top: 7%;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
 .text-container h1{
@@ -131,7 +132,7 @@ button span{
 .control .line{
     width: 250px;
     height: 4px;
-    background: green;
+    background: #fff;
     margin: 0 20px;
     border-radius: 2px;
 }
@@ -150,7 +151,7 @@ button span{
 }
 
 .active span{
-    background: red;
+    background: #fff;
     margin-left: 31px;
 }
 .on{
